@@ -35,7 +35,7 @@
     transition: 200ms;
 }
 .set:hover{
-    font-weight: bold;
+    color: rgb(195, 48, 48);
     cursor: pointer;
 }
 .events{
@@ -44,4 +44,16 @@
     color: white;
     padding: 10px 15px;
     background-color: rgb(195, 48, 48);
+}
+.recent{
+    color: grey;
+}
+.ways{
+    font-weight: bold;
+    color:rgb(195, 48, 48)
+}
+.gt-t{
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
 }
