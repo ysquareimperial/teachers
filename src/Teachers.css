@@ -1,59 +1,111 @@
-.card{
+.card {
     border: none;
     border-radius: 20px;
 }
-.card-t{
+
+.card-t {
     color: grey;
     font-size: 20px;
 }
-.update{
+
+.update {
     color: grey;
     transition: 200ms;
 }
-.update:hover{
+
+.update:hover {
     cursor: pointer;
     color: black;
     font-weight: bold;
 }
-.user-name{
+
+.user-name {
     font-weight: bold;
     color: grey;
     font-size: 30px;
 }
-.boost{
+
+.boost {
     color: grey;
     transition: 200ms;
 }
-.boost:hover{
+
+.boost:hover {
     font-weight: bold;
     color: black;
     cursor: pointer;
 }
-.set{
+
+.set {
     color: grey;
     font-size: 12px;
     transition: 200ms;
 }
-.set:hover{
+
+.set:hover {
     color: rgb(195, 48, 48);
     cursor: pointer;
 }
-.events{
+
+.events {
     border: none;
     border-radius: 50px;
     color: white;
     padding: 10px 15px;
     background-color: rgb(195, 48, 48);
 }
-.recent{
+
+.recent {
     color: grey;
 }
-.ways{
+
+.ways {
     font-weight: bold;
-    color:rgb(195, 48, 48)
+    color: rgb(195, 48, 48)
 }
-.gt-t{
+
+.gt-t {
     color: grey;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.nav {
+    background-color: rgb(250, 250, 250);
+
+}
+
+.search_field:focus {
+    outline: 1px solid rgb(195, 48, 48);
+}
+
+.search_field::placeholder {
+    color: grey;
+} 
+.search_field {
+    border: none;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    /* margin-left: 10px; */
+    width: 100%;
+    background-image: url('./images/search.png');
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    display: block;
+}
+
+.flex-container{
+    float: right;
+}
+.nav-icon{
+    color: rgb(195, 48, 48);
+    margin-right: 10px;
+}
+.nav-icon:hover{
+
+    cursor: pointer;
 }

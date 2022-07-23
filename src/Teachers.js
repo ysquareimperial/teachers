@@ -3,11 +3,13 @@ import { Button, Row, Col, Card, Container } from 'reactstrap'
 import './Teachers.css'
 import strength from './images/strength.png'
 import { Heart, User, FileText, Eye, Search } from 'react-feather'
+import Navbar from './Navbar'
 export default function Teachers() {
     return (
         <div>
-            <Container>
-                <Row className='mt-3'>
+            <Navbar/>
+            <Container className='mb-5'>
+                <Row className='mt-5'>
                     <Col md={6}>
                         <Card className='shadow p-4 index-card' style={{ border: 'none', borderRadius: 20 }}>
                             <Row>
@@ -96,10 +98,10 @@ export default function Teachers() {
                                             <Eye style={{ color: 'grey', marginLeft: 10 }} size='1.5em' />
                                         </p>
                                         <p className='gt-t'>
-                                            fasd fa df  fasd fasdfasdf fadsfsdafas fasdfsdfas fasdfasdfsd fasdfasdfsad fasdfasfsdaf fadfasdfasd fasdfasdfsad fasfasfsad 
-                                          </p>
+                                            fasd fa df  fasd fasdfasdf fadsfsdafas fasdfsdfas fasdfasdfsd fasdfasdfsad fasdfasfsdaf fadfasdfasd fasdfasdfsad fasfasfsad
+                                        </p>
                                         <button className='events' style={{ float: '' }}>
-                                           View preferences
+                                            View preferences
                                         </button>
                                     </Card>
                                 </Col>
@@ -112,7 +114,7 @@ export default function Teachers() {
                                             Find jobs based on location, position, school type and more. Click the Save Search button to get automatic notifications about new opportunities.
                                         </p>
                                         <button className='events' style={{ float: '' }}>
-                                           Search for jobs
+                                            Search for jobs
                                         </button>
                                     </Card>
                                 </Col>
@@ -127,6 +129,15 @@ export default function Teachers() {
                             <hr />
                             <button className='events' style={{ float: '' }}>
                                 View more
+                            </button>
+                        </Card>
+                        <Card className='shadow p-4 index-card mt-3' style={{ border: 'none', borderRadius: 20 }}>
+                            <p className='card-t m-0 p-0'>Favorites</p>
+                            <hr />
+                            <p className='recent'>fav fav fav</p>
+                            <hr />
+                            <button className='events' style={{ float: '' }}>
+                                View all favorites
                             </button>
                         </Card>
                     </Col>
