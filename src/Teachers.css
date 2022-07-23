@@ -1,0 +1,47 @@
+.card{
+    border: none;
+    border-radius: 20px;
+}
+.card-t{
+    color: grey;
+    font-size: 20px;
+}
+.update{
+    color: grey;
+    transition: 200ms;
+}
+.update:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.user-name{
+    font-weight: bold;
+    color: grey;
+    font-size: 30px;
+}
+.boost{
+    color: grey;
+    transition: 200ms;
+}
+.boost:hover{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.set{
+    color: grey;
+    font-size: 12px;
+    transition: 200ms;
+}
+.set:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.events{
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(195, 48, 48);
+}
