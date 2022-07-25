@@ -226,3 +226,11 @@ img {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.events {
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(74, 74, 74);
+}

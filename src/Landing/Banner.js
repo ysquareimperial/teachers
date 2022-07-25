@@ -13,7 +13,7 @@ function Banner(params) {
                     <Row className="row">
                         <Col md={6}>
                             <div className="container">
-                                <div style={{  }}>
+                                <div style={{}}>
                                     <h1 className="mt-4" >
                                         Find the best
                                         <span> Teachers</span>
@@ -21,25 +21,18 @@ function Banner(params) {
                                     <h4 className="second-title ">
                                         We help you to build better future. Find a Second home Today!
                                     </h4>
-                                    <Row style={{ background: "white", paddingBottom: '4px', paddingTop: '4px', borderRadius: "4px" }}>
-                                        <Col md={6}>
-                                            <InputGroup>
-                                                <InputGroupText style={{ background: "white", border: "none" }}>
-                                                    <Search />
-                                                </InputGroupText>
-                                                <Input placeholder="Search" />
-                                            </InputGroup>
-                                        </Col>
-                                        <Col md={6}>
-                                            <InputGroup>
-                                                <InputGroupText style={{ background: "white", borderLeft: "1px solid white" }}>
-                                                    <MapPin />
-                                                </InputGroupText>
-                                                <Input placeholder="Search" />
-                                            </InputGroup>
-                                        </Col>
 
-
+                                    <Row style={{ paddingBottom: '4px', paddingTop: '4px', borderRadius: "4px" }}>
+                                        
+                                            <center>
+                                                <button className='events'>
+                                                    Get started
+                                                </button>
+                                                <button className='events ml-5'>
+                                                    Find Job events
+                                                </button>
+                                            </center>
+                                        {/* </Col> */}
                                     </Row>
                                 </div>
                             </div>
