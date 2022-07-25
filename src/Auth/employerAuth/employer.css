@@ -1,0 +1,23 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('../../images/employer.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.arrow {
+  cursor: pointer;
+}
+.back {
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .arrow {
+    margin-left: 70px;
+  }
+}

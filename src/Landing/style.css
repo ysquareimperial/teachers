@@ -1,0 +1,228 @@
+.center {
+    text-align: center;
+
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img {
+    height: 4rem;
+    /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+}
+
+.logos img:last-child {
+    height: 1rem;
+    /* margin-top: -1rem; */
+    /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+}
+
+.logos img:hover {
+    cursor: zoom-in;
+}
+
+.row {
+    --bs-gutter-x: "";
+}
+
+
+/* home-page-stats-section */
+
+.home-page-stats-section[data-v-55b7876e] {
+    max-width: 1080px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Lato, sans-serif
+}
+
+.stats-container[data-v-55b7876e] {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.stat-icon[data-v-55b7876e] {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.child-flex>*,
+.flex {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    max-width: 100%;
+}
+
+/* .home-page-stats-section .header-wrapper[data-v-55b7876e] {
+    width: 100%;
+    text-align: center
+} */
+
+/* .home-page-stats-section .header-wrapper h3[data-v-55b7876e] {
+    font-size: 27px;
+    line-height: 35.1px
+} */
+
+/* .report-card .large-logo[data-v-202e7f29] {
+    float: right;
+    margin: 20px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 4px 4px 48px #cdcdcd;
+    background-color: #fff;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    height: 240px
+}
+
+.report-card .small-logo[data-v-202e7f29] {
+    position: absolute;
+    z-index: -1;
+    opacity: .1
+}
+
+.report-card-content[data-v-202e7f29] {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 380px;
+    font-family: Lato, sans-serif;
+    text-align: center
+}
+
+.report-card-content h3[data-v-202e7f29] {
+    display: inline-block;
+    font-size: 1.1em;
+    margin-bottom: 12px;
+    font-weight: 800;
+    line-height: 1.4em
+}
+
+.report-card-content p[data-v-202e7f29] {
+    line-height: 18pt
+}
+
+.report-card-content button[data-v-202e7f29] {
+    border: none;
+    border-radius: 32px;
+    background-color: #65ccb1;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    width: 200px;
+    height: 42px;
+    padding: 7px 20px;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none
+} */
+
+@media (min-width: 960px) {
+    .v-application .flex-md-row {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: row !important;
+    }
+}
+
+.v-application .align-center {
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+
+.styled-text-large-bold[data-v-5fed403f] {
+    color: #2b353e;
+    font-size: 1.8em;
+    font-weight: 800;
+    line-height: 1.3em;
+    margin-bottom: 5px
+}
+
+.styled-text-large-bold[data-v-55b7876e] {
+    color: #2b353e;
+    font-size: 1.8em;
+    font-weight: 800;
+    line-height: 1.3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.styled-text-huge-thin[data-v-55b7876e] {
+    color: black;
+    font-size: 5em;
+    font-weight: 200;
+    text-align: center;
+}
+
+.styled-text-small-bold[data-v-55b7876e] {
+    color: #606972;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.stat-icon img[data-v-55b7876e] {
+    margin: 0 auto;
+}
+
+.stats-section-arrow-icon[data-v-55b7876e] {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+/* Whtsapp style */
+
+.whatsapp {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #25d366;
+    border-radius: 50%;
+    height: 4rem;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 5;
+    position: fixed;
+    /* animation: bulge infinite 2000ms; */
+    opacity: 0.8;
+    width: 4rem;
+    transition: all 700ms ease-in-out;
+    padding-top: 1rem;
+}
+
+.to-top.show {
+    padding-top: 0.5rem;
+    opacity: 0.8;
+    width: 3rem;
+}
+
+.to-top ion-icon {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.whatsapp ion-icon {
+    font-size: 2rem;
+    font-weight: bold;
+}

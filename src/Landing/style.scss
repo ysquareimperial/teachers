@@ -1,0 +1,353 @@
+/*
+
+https://dribbble.com/shots/10738581-Startup-Jobs-Landing-Page-Design
+
+*/
+
+:root {
+    --soft-pink: white;
+    --dark-blue: #04195b;
+    --purple: #785fff;
+    --grey: #a3abc3;
+    --light-purple: #f8f8fa;
+    --purple-middle: #cdc4fb;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+    &.container--big {
+        max-width: 1400px;
+    }
+}
+
+.heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+    span {
+        position: relative;
+        z-index: 10;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 10px;
+            background: var(--purple-middle);
+            bottom: 2px;
+            z-index: -1;
+        }
+    }
+}
+
+.button {
+    text-decoration: none;
+    height: 40px;
+    padding: 10px 20px;
+    color: var(--dark-blue);
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+
+    &.button--primary {
+        background: var(--purple);
+        color: white;
+
+        &:hover:before {
+            display: none;
+        }
+    }
+
+    &:hover:before {
+        content: '';
+        top: 100%;
+        width: calc(100% - 40px);
+        background: var(--dark-blue);
+        height: 2px;
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.second-title {
+    color: var(--grey);
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--dark-blue);
+
+    span {
+        display: block;
+        margin-top: -10px;
+    }
+}
+
+.header {
+    background: var(--soft-pink);
+    // padding: 20px 0;
+
+    &>.container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__nav {
+        margin-left: 20px;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+
+        a {
+            margin-right: 5px;
+        }
+    }
+
+    &__user-nav {
+        margin-left: auto;
+        display: flex;
+
+        a {
+            margin-left: 5px;
+        }
+    }
+
+    &__section {
+        padding: 35px 0;
+        height: 400px;
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .title {
+            margin-bottom: 30px;
+            font-size: 70px;
+
+            span {
+                display: block;
+            }
+        }
+
+        .second-title {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.header__section {
+    background: black;
+    height: 668px;
+    color: white;
+}
+
+.search-form {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    background: white;
+    align-self: flex-start;
+    box-shadow: 0px 2px 5px #ddd;
+    padding: 0 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    label {
+        display: flex;
+        align-items: center;
+    }
+
+    label:nth-child(1) {
+        border-right: 1px solid #eee;
+    }
+
+    i {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        width: 250px;
+        padding: 10px 10px;
+        border: 0;
+        font-size: 18px;
+
+        &::placeholder {
+            color: var(--grey);
+        }
+
+        &.border {
+            border-right: 1px solid #eee;
+        }
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    div {
+        padding: 10px 15px;
+    }
+
+    .button {
+        font-size: 15px;
+    }
+}
+
+section.explore {
+    background: var(--light-purple);
+    padding: 70px 0;
+
+    .jobs {
+        display: flex;
+
+        .job {
+            padding: 40px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 25px;
+                width: 80px;
+                height: 80px;
+                margin-bottom: 20px;
+                border-radius: 15px;
+
+                &.ux {
+                    background: #f5e6fe;
+                    color: #be63f9;
+                }
+
+                &.security {
+                    background: #e3f8fa;
+                    color: #2dc8db;
+                }
+
+                &.web {
+                    background: #ffdddd;
+                    color: #f96363;
+                }
+
+                &.market {
+                    background: #ffeebe;
+                    color: #ffb902;
+                }
+            }
+
+            &__title {
+                margin-bottom: 10px;
+                color: var(--dark-blue);
+                font-size: 20px;
+            }
+
+            &__desc {
+                font-size: 14px;
+                color: var(--grey);
+            }
+
+            &:hover {
+                background: white;
+                box-shadow: 4px 4px 60px #eee;
+            }
+        }
+    }
+}
+
+
+// trusted
+
+
+
+section.latest-jobs {
+    padding: 70px 0;
+    background: var(--light-purple);
+
+    .jobs {
+        display: flex;
+        flex-direction: column;
+
+        .job {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 30px;
+            background: white;
+            box-shadow: 0px 2px 2px #eee;
+            margin-bottom: 10px;
+
+            &__image {
+                width: 40px;
+                height: 40px;
+                background: orange;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+
+            &__info {
+                .name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+            }
+
+            i {
+                font-size: 14px;
+            }
+
+            .percentage,
+            .rate {
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-left: 10px;
+                }
+            }
+
+            .rate {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid orange;
+
+                i {
+                    margin-top: -2px;
+                }
+
+                &>* {
+                    color: orange;
+                }
+            }
+        }
+    }
+}

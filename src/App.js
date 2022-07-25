@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Teachers from './Teachers';
-
+// import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AppNavigation from './Routes/AppNavigation';
+// import Navbar from './Dashboard/Navbar.js';
 function App() {
   return (
     <div>
-    <Teachers/>
+      {/* <Navbar /> */}
+      <AppNavigation />
+      {/* <h1>Hello Word</h1> */}
     </div>
   );
 }
-
 export default App;

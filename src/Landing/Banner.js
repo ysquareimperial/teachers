@@ -1,0 +1,57 @@
+import React from "react";
+import { MapPin, Search } from "react-feather";
+import { Input, InputGroupText, InputGroup, Button, Col, Collapse, Nav, Navbar, NavbarBrand, NavbarText, NavbarToggler, NavItem, NavLink, Row } from "reactstrap";
+
+import "./LandinStyle.css"
+
+function Banner(params) {
+    return (
+        <>
+            <div class="banner">
+
+                <section className="header__section">
+                    <Row className="row">
+                        <Col md={6}>
+                            <div className="container">
+                                <div style={{  }}>
+                                    <h1 className="mt-4" >
+                                        Find the best
+                                        <span> Teachers</span>
+                                    </h1>
+                                    <h4 className="second-title ">
+                                        We help you to build better future. Find a Second home Today!
+                                    </h4>
+                                    <Row style={{ background: "white", paddingBottom: '4px', paddingTop: '4px', borderRadius: "4px" }}>
+                                        <Col md={6}>
+                                            <InputGroup>
+                                                <InputGroupText style={{ background: "white", border: "none" }}>
+                                                    <Search />
+                                                </InputGroupText>
+                                                <Input placeholder="Search" />
+                                            </InputGroup>
+                                        </Col>
+                                        <Col md={6}>
+                                            <InputGroup>
+                                                <InputGroupText style={{ background: "white", borderLeft: "1px solid white" }}>
+                                                    <MapPin />
+                                                </InputGroupText>
+                                                <Input placeholder="Search" />
+                                            </InputGroup>
+                                        </Col>
+
+
+                                    </Row>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md={6}>
+                            <img src={require("../images/teacher.png")} className="d-none d-sm-block mt-4" width="100%" height="100%" />
+                        </Col>
+                    </Row>
+                </section>
+            </div>
+        </>
+    )
+}
+
+export default Banner
