@@ -7,7 +7,7 @@ import Navbar from './Navbar'
 export default function Teachers() {
     return (
         <div>
-            <Navbar/>
+            <Navbar />
             <Container className='mb-5'>
                 <Row className='mt-5'>
                     <Col md={6}>
@@ -30,7 +30,7 @@ export default function Teachers() {
                                 </Col>
                                 <Col md={4}>
                                     <button className='events' style={{ float: '' }}>
-                                        Flind Job events
+                                        Find Job events
                                     </button>
                                     <hr />
                                     <button className='events' style={{ float: '' }}>
