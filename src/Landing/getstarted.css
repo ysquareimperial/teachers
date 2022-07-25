@@ -1,0 +1,45 @@
+/*.Bbackround{
+    background-color: black;
+     height:400px;
+}
+.get{ 
+    margin-top: 710px;
+}
+.getstarted2{
+        font-family: "courier-new"; 
+        font-size: 60px; 
+        color: white; 
+        font-weight: bold;
+}
+.blockchain{
+    color: white; 
+    font-size: 30px; margin-top: 5px; 
+    letter-spacing: 5px;
+     word-spacing: 5px;
+}
+.mi{
+    margin-top: 25px;
+}
+.mi2{
+    margin-left: 450px;
+    height: 30px ;
+}
+.mi3{
+    height: 60px; 
+    width: 210px;
+     border-radius: 10px;
+     background-color: white; 
+     color: black;
+}
+.mi4{
+    margin-right: 200px;
+     height: 30px;
+}
+.mi5{
+     height: 60px; 
+     width: 210px; 
+     border-radius: 10px; 
+     background-color: white; color: black;
+}
+
+
