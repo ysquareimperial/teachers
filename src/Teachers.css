@@ -43,7 +43,7 @@
 }
 
 .set:hover {
-    color: rgb(195, 48, 48);
+    color: rgb(74, 74, 74);
     cursor: pointer;
 }
 
@@ -52,16 +52,29 @@
     border-radius: 50px;
     color: white;
     padding: 10px 15px;
-    background-color: rgb(195, 48, 48);
+    background-color: rgb(74, 74, 74);
+}
+.ee {
+    /* border: none; */
+    border-radius: 50px;
+    color: rgb(74, 74, 74);
+    padding: 10px 15px;
+    border:1px solid rgb(74, 74, 74);
+    background-color: white;
+    transition: 500ms;
 }
 
+.ee:hover{
+    background-color: rgb(74, 74, 74);
+    color: white;
+}
 .recent {
     color: grey;
 }
 
 .ways {
     font-weight: bold;
-    color: rgb(195, 48, 48)
+    color: rgb(74, 74, 74)
 }
 
 .gt-t {
@@ -76,7 +89,7 @@
 }
 
 .search_field:focus {
-    outline: 1px solid rgb(195, 48, 48);
+    outline: 1px solid rgb(74, 74, 74);
 }
 
 .search_field::placeholder {
@@ -102,7 +115,7 @@
     float: right;
 }
 .nav-icon{
-    color: rgb(195, 48, 48);
+    color: rgb(74, 74, 74);
     margin-right: 10px;
 }
 .nav-icon:hover{

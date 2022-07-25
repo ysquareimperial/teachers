@@ -12,9 +12,9 @@ export default function Navbar() {
                 </Col>
                 <Col md={4}>
                     <div className='flex-container'>
-                        <Mail className='nav-icon'/>
-                        <Bell className='nav-icon'/>
-                        <User className='nav-icon'/>
+                        <Mail className='nav-icon' />
+                        <Bell className='nav-icon' />
+                        <User className='nav-icon' />
                     </div>
                 </Col>
             </Row>
