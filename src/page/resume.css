@@ -1,0 +1,31 @@
+.resume_head {
+    background-color: green;
+    height: 400px;
+    position: absolute;
+    /* left: 10px; */
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+}
+
+.cards {
+    margin-top: 20em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.resume_label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.form-control {
+height: 50px;
+font-style: italic;
+}

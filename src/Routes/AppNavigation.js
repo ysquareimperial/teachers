@@ -5,6 +5,7 @@ import EmployerSignup from "../Auth/employerAuth/EmployerSignup";
 import EmployerLogin from "../Auth/employerAuth/EmployerLogin";
 import TeacherLogin from "../Auth/teacherAuth/TeacherLogin";
 import Homeroom from "../page/home/Homeroom";
+import CreateResume from "../page/CreateResume";
 
 function AppNavigation() {
   let element = useRoutes([
@@ -17,6 +18,10 @@ function AppNavigation() {
           element: <Homeroom />
         }
       ]
+    },
+    {
+      path: "resume",
+      element: <CreateResume />
     },
     {
       path: "/",
